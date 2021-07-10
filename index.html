@@ -7,11 +7,13 @@
   <title>Portfolio landing page</title>
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./js/bootstrap.js">
   <link rel="stylesheet" href="./css/index.css">
+  <script></script>
 </head>
 <body>
   <header>
-   <nav>
+   <nav class="">
      <span>MyProfile.Hub</span>
      <ul class="nav justify-content-end">
        <li class="nav-item">
@@ -111,7 +113,37 @@
       <span>Contact me?</span>
     </div>
     <p>Let's work together,<br>Drop an email.</p>
-    
+    <div class="contact-form">
+      <div id="error" ></div>
+        <form id="form" action="https://mail.google.com/mail/u/0/#inbox" method="GET">
+            <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div>
+            <label for="email">E-mail</label>
+            <input type="text" id="email" name="email" required>
+          <div>
+            <textarea placeholder="Your Message" type="text" id="message"></textarea>
+          </div>
+          </div>
+          <input class="button" type="submit" id="submit" value="SUBMIT">
+        </form>
+      </div>
+    </div>
   </section>
+  <footer>
+    <section>
+      <p><span>USEFUL LNKS</span><br>
+        Terms and Conditions <br>
+        Privacy Statement <br>
+        FAQs</p>
+      <p><span>Contact Me</span><br>
+        <img src="./Assets/vectors/facebook.svg" alt="facebook"><br>
+        <img src="./Assets/vectors/instagram.svg" alt="instagram"><br>
+        <img src="./Assets/vectors/twitter.svg" alt="twitter"></p>      
+    </section>
+    <p id="copyright">&copy; Copyright Grievin otieno 2021</p>
+  </footer>
 </body>
 </html>
