@@ -4,16 +4,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio landing page</title>
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/bootstrap.css">
   <link rel="stylesheet" href="./js/bootstrap.js">
   <link rel="stylesheet" href="./css/index.css">
+  <title>Portfolio landing page</title>
   <script></script>
 </head>
 <body>
   <header>
-   <nav class="">
+   <nav class="navbar sticky-top navbar-light bg-light">
      <span>MyProfile.Hub</span>
      <ul class="nav justify-content-end">
        <li class="nav-item">
@@ -30,28 +30,33 @@
        </li>
      </ul>
    </nav>
-      <span>I'm Grievin otieno,</span>
-      <span>I'm a Full stack Web Developer,<br></span>
-      <span>Welcome to My Portfolio;<br></span>
-        <a href="my-work"></a><button type="button">View my Work</button>
+   <div class="d-flex justify-content-center">
+      <p><span>I'm Grievin otieno,</span><br>
+        <span>I'm a Full stack Web Developer,</span><br>
+        <span>Welcome to My Portfolio;</span></p>
+    </div >
+      <a class="d-flex justify-content-center" href="#my-work"><button type="button">View my Work</button></a>
   </header>
-  <section>
+  <section id="about" >
     <div>
+      <h1>About Me</h1>
+    </div>
+    <div class="d-flex justify-content-between">
       <div>
-        <h1>About Me</h1>
-      </div>
-      <div>
-        <img src="./Assets/IMG-20190625-WA0003_1625850510679_1625850586118.jpg" alt="my image" height="414px" width="328">
         <h3>Backround info</h3>
         <p>With a Bachelors degree in Agricultural Economics and a passion for Technology<br>Grievin is a dedicated enthusiast with web design skills,software programming and cite development guru <br>I have worked as a freelance for MyProfile.Hub, google Kenya, Techdevs and booger.com <br></p>
-        <p>My interest in software development began quite a long time ago after the completion of my Highschool, I met with a software Engineer who showed me his art work and ever since then I fell in love with Software programming.</p>
-        <h3>Rare skills</h3>
+        <p>My interest in software development began quite a long time ago after the completion of my Highschool <br> I met with a software Engineer who showed me his art work and ever since then I fell in love with Software programming.</p>
+        <h3>Current Interests and skills</h3>
         <p>My current Interest are cyber security programming, systems Programming and Artificial Intelligence</p>
-        <p>My current skills are <em>HTML 5,</em><em>css,</em><em>JavaScript</em><em>and Figma designs</em></p>
+        <p>My current skills are <em>HTML 5,</em><em>css,</em><em>JavaScript</em> and <em>Figma designing</em></p>
+      </div>
+      <div>
+        
+        <img src="./Assets/IMG-20190625-WA0003_1625850510679_1625850586118.jpg" alt="my image" height="414px" width="328">
       </div>
     </div>
   </section>
-  <section>
+  <section id="my-work">
     <div>
       <div>
         <h1>My Work</h1>
@@ -62,7 +67,7 @@
         <div class="card-body">
           <h5 class="card-title">Anita's kitchen</h5>
           <p class="card-text">This is a sample of a Restaurant web page.</p>
-          <a href="#" class="btn btn-primary">See</a>
+          <a href="https://grievi.github.io/Anitas-kitchen/" class="btn btn-primary">See</a>
         </div>
       </div>
       <div class="card" style="width: 18rem;">
@@ -71,7 +76,7 @@
           <h5 class="card-title">Keja Chap Chap</h5>
           <p class="card-text">About
             This platform lists houses for rent and for buying so that a user doesn't have to leave their comfort zone to look for them...</p>
-          <a href="#" class="btn btn-primary">See</a>
+          <a href="https://kwathuta.github.io/Keja-Chap-Chap/" class="btn btn-primary">See</a>
         </div>
       </div>
       <div class="card" style="width: 18rem;">
@@ -79,40 +84,40 @@
         <div class="card-body">
           <h5 class="card-title">Favorite Pet</h5>
           <p class="card-text">This is a sample of web page for my favorite pet a dog  called Bruno.</p>
-          <a href="#" class="btn btn-primary">See</a>
+          <a href="https://grievi.github.io/pet-web/" class="btn btn-primary">See</a>
         </div>
         </div>
         <div class="card" style="width: 18rem;">
           <img src="./Assets/prtfolio.png" class="card-img-top" alt="portfolio">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Project Portfolio</h5>
             <p class="card-text">Project Portfolio for a client This is a sample of what a portfolio looks like</p>
-            <a href="#" class="btn btn-primary">See</a>
+            <a href="https://grievi.github.io/project-portfolio/" class="btn btn-primary">See</a>
           </div>
           </div>
           <div class="card" style="width: 18rem;">
             <img src="./Assets/favrytband.png" class="card-img-top" alt="fband">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Favourite Band</h5>
               <p class="card-text">Project Favorite Band, Morgan Heritage music Band.See more details below</p>
-              <a href="#" class="btn btn-primary">See</a>
+              <a href="https://grievi.github.io/Favourite-band-Project/" class="btn btn-primary">See</a>
             </div>
             </div>
             <div class="card" style="width: 18rem;">
               <img src="./Assets/pexels-athena-2582937.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">My first web page</h5>
+                <h5 class="card-title">My first web page Catch up Project</h5>
                 <p class="card-text">This is my very first Project,dubbed my first-web-page.</p>
-                <a href="#" class="btn btn-primary">See</a>
+                <a href="https://grievi.github.io/catch-up-project/" class="btn btn-primary">See</a>
               </div>
             </div> 
     </div>
   </section>
-  <section>
+  <section id="contact" class="d-flex justify-content-between">
     <div>
-      <span>Contact me?</span>
-    </div>
+      <h1>Contact me?</h1>
     <p>Let's work together,<br>Drop an email.</p>
+    </div>
     <div class="contact-form">
       <div id="error" ></div>
         <form id="form" action="https://mail.google.com/mail/u/0/#inbox" method="GET">
@@ -133,17 +138,17 @@
     </div>
   </section>
   <footer>
-    <section>
+    <section class="d-flex justify-content-between">
       <p><span>USEFUL LNKS</span><br>
         Terms and Conditions <br>
-        Privacy Statement <br>
-        FAQs</p>
+        Privacy Policy <br>
+        Support.</p>
       <p><span>Contact Me</span><br>
         <img src="./Assets/vectors/facebook.svg" alt="facebook"><br>
         <img src="./Assets/vectors/instagram.svg" alt="instagram"><br>
         <img src="./Assets/vectors/twitter.svg" alt="twitter"></p>      
     </section>
-    <p id="copyright">&copy; Copyright Grievin otieno 2021</p>
+    <p id="copyright" class="d-flex justify-content-center">&copy; Grievin otieno 2021</p>
   </footer>
 </body>
 </html>
