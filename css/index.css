@@ -106,6 +106,15 @@ margin-right: 5%;
   margin-bottom: 50px;
   align-items: center;
 }
+#card h5{
+  font-weight: 700;
+  color: #0f273e;
+  text-align:center ;
+  text-transform: uppercase;
+}
+#card p{
+  text-align: center;
+}
 .card:hover{
   box-shadow: 0px 10px 10px #0f273e;;
   opacity: 0.8;

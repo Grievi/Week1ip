@@ -2,7 +2,7 @@
 #### This is my Website Portfolio , it includes my proffesional career as a software developer, 11/july/2021
 #### By **Grievin Otieno**
 ## Description
-This is a proffesional portfolio for my work as a web developer. On the portfolio shows the number of prjects that i have done the number of companies i have worked with and a brief description of my skills and my interests as a developer.
+This is a proffesional portfolio Landing page of my work as a web developer. On the portfolio, shows the number of projects that I have done the number of companies I have worked with and a brief description of my skills and my interests as a developer.
 ## Setup/Installation Requirements
 * laptop
 * Visual Studio
@@ -11,7 +11,7 @@ This is a proffesional portfolio for my work as a web developer. On the portfoli
 
 
 ## Known Bugs
-the go to top button or the scroll button is not yet to be placed for easier manuevrebility in the site.
+The 'go to top' button or the 'scroll button' is not placed to allow easier manuevrebility in the site.
 ## Technologies Used
 Technologies used include;
 * HTML 5
