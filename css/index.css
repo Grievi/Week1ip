@@ -26,11 +26,12 @@ header{
 }
 #grievin{
   align-items: center;
+ 
   margin-top: 15%;
   line-height: 100px;
 }
 #grievin p{
-  align-items: center;
+  align-items: center;;
   color: white;
   font-family: 'Lobster', cursive;
   font-size: 64px;
@@ -49,9 +50,14 @@ header{
 /* button a{
   text-decoration: none;
 } */
+#about{
+  margin: 0%,5%,0%,5%;
+}
+
 #myabout{
   box-sizing: border-box;
   border-radius: 10px;
+  /* max-width: 90%; */
 }
 #myabout h3{
   font-size: 36px;
@@ -82,14 +88,62 @@ header{
   transition: 0.3s;
   border-radius: 5px;
   width: 30%;
-  height: 485px;
-  margin-left: 50px;
+  height: 500px;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-bottom: 50px;
+}
+#card h1{
+  margin-top: 0px;
+}
+#card p{
+  color: black;
 }
 #contact{
   clear: left;
 }
+#contact p{
+  font-size: 24px;
+}
+.contact-form{
+  width:60vh;
+  height:50vh;
+  margin-right: 30%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+input{
+  width:10vh;
+  color: black;
+  background-color: white;
+  padding: 10px 150px 20px 5px;
+  border-radius: 5px;
+  margin: 10px 20px ;
+  box-sizing: border-box;
+}
+label{
+  margin: 20px;
+  font-family: 'Comfortaa', cursive;
+}
+#submit{
+  margin-left:7rem;
+  background-color:rgba(16, 34, 35, 1) ;
+  color: white;
+  text-align: center;
+}
 footer{
   background-color: rgba(16, 34, 35, 1);
+  color: white;
+  font-size: 18px;
 
+}
+textarea{
+  width: 30vh;
+  border-radius: 5px;
+  margin-left: 5rem;
+  box-sizing: border-box;
+}
+footer p{
+  margin-right: 50px;
 }
