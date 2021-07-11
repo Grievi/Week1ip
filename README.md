@@ -21,5 +21,5 @@ Technologies used include;
 In case you'd want to build someting together just inbox me one m email@ grievin.okumu@student.moringaschool.com
 ### Licence
 * MIT LICENCE 
-Copyright (c) {2021} **{Grievin otieno}**
+Copyright (c) 2021 **Grievin otieno**
   
