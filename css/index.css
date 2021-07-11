@@ -26,7 +26,7 @@ header{
 }
 a:hover{
   background-color:#f5f5f5;
-
+  color: black;
 }
 #grievin{
   align-items: center;
@@ -41,9 +41,9 @@ a:hover{
   font-size: 64px;
 }
 .view-work {
-  display: inline-block;
+  display: flex;
   justify-content: center;
-  margin: left 50%;
+  
 }
  button{
   font-family: 'Comfortaa', cursive;
@@ -53,14 +53,16 @@ a:hover{
   border-radius: 5px;
   width: 200px;
   height: 40px;
-  /* color: white; */
-  background-color:rgb (26 83 90) ;
+  color: white;
+  margin-top: 10vh;
+  background-color:rgba(16, 34, 35, 1)
 }
 /* button a{
   text-decoration: none;
 } */
-#about{
-  margin: 0%,5%,0%,5%;
+#d-flex{
+margin-left: 5%;
+margin-right: 5%;
 }
 
 #myabout{
@@ -81,7 +83,7 @@ a:hover{
   background-image: url(../Assets/workpageimg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 150vh;
+  height: 130vh;
 }
 #my-work h1{
   color: white;
@@ -144,9 +146,9 @@ a:hover{
   font-size: 24px;
 }
 .contact-form{
-  width:60vh;
+  width:50vh;
   height:50vh;
-  margin-right: 30%;
+  /* margin-right: 30%; */
   box-sizing: border-box;
   border-radius: 5px;
   background-color: #f5f5f5;
@@ -166,10 +168,19 @@ label{
   font-weight: 500;
 }
 #submit{
+
   margin-left:7rem;
   background-color:rgba(16, 34, 35, 1) ;
   color: white;
   text-align: center;
+}
+
+textarea{
+  width: 30vh;
+  height: 10vh;
+  border-radius: 5px;
+  margin-left: 1.5rem;
+  box-sizing: border-box;
 }
 footer{
   background-color: rgba(16, 34, 35, 1);
@@ -177,12 +188,7 @@ footer{
   font-size: 18px;
 
 }
-textarea{
-  width: 30vh;
-  border-radius: 5px;
-  margin-left: 5rem;
-  box-sizing: border-box;
-}
 footer p {
   margin-right: 50px;
+  margin-bottom: 0px;
 }
