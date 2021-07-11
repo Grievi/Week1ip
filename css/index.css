@@ -1,6 +1,8 @@
-*{
+* h1{
   margin: 0;
   /* height: 3100px; */
+  font-family:'Comfortaa', cursive; 
+  font-size: 56px;
 }
 header{
   background-image: url(../Assets/homepageimg.jpg);
@@ -39,14 +41,27 @@ header{
   font-size: 24px;
   line-height: 40px;
   border-radius: 5px;
-  width: 300px;
+  width: 200px;
   height: 40px;
   /* color: white; */
   background-color:rgb (26 83 90) ;
 }
-button a{
+/* button a{
   text-decoration: none;
+} */
+#myabout{
+  box-sizing: border-box;
+  border-radius: 10px;
 }
+#myabout h3{
+  font-size: 36px;
+}
+#myabout p{
+  font-size: 24px;
+}
+/* #myabout img{
+  margin-right: 10%;
+} */
 #my-work{
   background-image: url(../Assets/workpageimg.jpg);
   background-size: cover;
