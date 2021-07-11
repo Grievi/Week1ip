@@ -24,6 +24,10 @@ header{
   color: white;
   font-size: 24px;
 }
+a:hover{
+  background-color:#f5f5f5;
+
+}
 #grievin{
   align-items: center;
  
@@ -35,6 +39,11 @@ header{
   color: white;
   font-family: 'Lobster', cursive;
   font-size: 64px;
+}
+.view-work {
+  display: inline-block;
+  justify-content: center;
+  margin: left 50%;
 }
  button{
   font-family: 'Comfortaa', cursive;
@@ -72,7 +81,7 @@ header{
   background-image: url(../Assets/workpageimg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  /* height: 867px; */
+  height: 150vh;
 }
 #my-work h1{
   color: white;
@@ -84,7 +93,8 @@ header{
 
 #card{
   float: left;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+  background-color:#f5f5f5;
   transition: 0.3s;
   border-radius: 5px;
   width: 30%;
@@ -92,6 +102,34 @@ header{
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 50px;
+  align-items: center;
+}
+.card:hover{
+  box-shadow: 0px 10px 10px #0f273e;;
+  opacity: 0.8;
+  cursor: pointer;
+}
+@media screen and (min-width: 400px){
+  #my-work{
+    background-image: url(../Assets/workpageimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 100%; */
+    width: 100%;
+  }
+  #cards{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .contact-form{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #card h1{
+    font-size: large;
+  }
 }
 #card h1{
   margin-top: 0px;
@@ -125,6 +163,7 @@ input{
 label{
   margin: 20px;
   font-family: 'Comfortaa', cursive;
+  font-weight: 500;
 }
 #submit{
   margin-left:7rem;
@@ -144,6 +183,6 @@ textarea{
   margin-left: 5rem;
   box-sizing: border-box;
 }
-footer p{
+footer p {
   margin-right: 50px;
 }
